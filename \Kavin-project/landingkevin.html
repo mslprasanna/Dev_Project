@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="kavin.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+        <title>Document</title>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="./Images/logo kavin.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto gap-3 text-white">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+     
+  </div>
+</nav>
+<!--caurosel-->
+ <div class="container-fluid">
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./Images/slide.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-caurosel">Awesome Quality</h5>
+        <p style="color:white">Lorem ipsum dolor sit amet, consectetur adipisicing elitincidunt eius magni provident.</p>
+        <button type="button" class="btn btn-danger">Read More</button>
+      </div>
+    </div>
+      <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./Images/slide2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-caurosel">Awesome Quality</h5>
+        <p style="color:white">Lorem ipsum dolor sit amet, consectetur adipisicing elitincidunt eius magni provident.</p>
+        <button type="button" class="btn btn-danger">Read More</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div> 
+<!--Text-->
+<div class="container">
+<h1 class="text-center">About Our Company</h1>
+<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</p>
+</div>
+<!--Cards-->
+<div class="container d-flex flex-wrap gap-4">
+    <div class="card" position-relative p-4" style="width:18rem;">
+        <i class="fa fa-star position-absolute text-warning bg-white p-2 rounded-circle shadow"
+     style="top: -20px; left: -10px;"></i>
+  <div class="card-body bg-secondary-subtle">
+    <h5 class="card-title">Web Development</h5>
+    <p class="card-text">Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <i class="fa fa-star position-absolute text-warning bg-white p-2 rounded-circle shadow"
+     style="top: -20px; left: -10px;"></i>
+  <div class="card-body bg-secondary-subtle">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <i class="fa fa-star position-absolute text-warning bg-white p-2 rounded-circle shadow"
+     style="top: -20px; left: -10px;"></i>
+  <div class="card-body bg-secondary-subtle">
+    <h5 class="card-title">Interaction</h5>
+    <p class="card-text">Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <i class="fa fa-star position-absolute text-warning bg-white p-2 rounded-circle shadow"
+     style="top: -20px; left: -10px;"></i>
+  <div class="card-body bg-secondary-subtle">
+    <h5 class="card-title">User Experience</h5>
+    <p class="card-text">Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident.</p>
+  </div>
+</div>
+</div>
+<div class="container-fluid mt-5 bg-secondary-subtle">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6"z>
+            <img src="./Images/img1.jpg" alt="">  
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
+            <h1>Our Team</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.
+
+</p>
+        </div>
+    </div>
+</div>
+<!--Clients-->
+<div class="container mt-4">
+<h3 class="text-center">Our Clients</h3>
+<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</p>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-sm-12 col-md-4 col-lg-2">
+         <img class="img-fluid border border-success" src="./Images/iconms.jpg">
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-2">
+    <img class="img-fluid border border-success" src="./Images/iconms.jpg">
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-2">
+        <img class="img-fluid border border-success " src="./Images/iconms.jpg">
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-2">
+         <img class="img-fluid border border-success" src="./Images/iconms.jpg">
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-2">
+      <img class="img-fluid border border-success" src="./Images/iconms.jpg">
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-2">
+        <img class="img-fluid border border-success" src="./Images/iconms.jpg">
+    </div>
+</div>
+</div>
+<div id="textCarousel" class="carousel slide" data-bs-ride="carousel">
+
+
+    <div class="container text-center bg-light text-dark  mt-4 p-4">
+    <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+   <p>- Mark John - </p>
+   </div>
+</div>
+</div>
+<!--Footer-->
+
+<footer class="footer mt-5  bg-dark">
+  <div class="container py-4">
+    <div class="row">
+
+      <!-- Company -->
+      <div class="col-md-3">
+        <h5>My Company</h5>
+        <p>We provide high quality IT training and development services.</p>
+      </div>
+
+      <!-- Links -->
+      <div class="col-md-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-3">
+        <h5>Services</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">App Development</a></li>
+          <li><a href="#">SEO</a></li>
+        </ul>
+      </div>
+
+      <!-- Social -->
+      <div class="col-md-3">
+        <h5>Follow Us</h5>
+        <a href="#"><i class="fa-brands fa-facebook me-2"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram me-2"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter me-2"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <p class="text-center mb-0">
+      © 2026 My Company | All Rights Reserved
+    </p>
+  </div>
+
+</footer>
+</body>
+</html>
